@@ -1,0 +1,10 @@
+name = Views Map
+description = Provides a View style that displays a map.
+dependencies[] = views (>=3.0)
+package = Views
+core = 7.x
+
+files[] = views_map.module
+files[] = theme/views_map.theme.inc
+files[] = views_map.views.inc
+files[] = views_map_plugin_style_map.inc

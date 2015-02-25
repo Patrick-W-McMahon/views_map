@@ -1,6 +1,7 @@
 name = Views Map
 description = Provides a View style that displays a map.
 dependencies[] = views (>=3.0)
+dependencies[] = geolocation (>=7.x-1.6)
 package = Views
 core = 7.x
 

@@ -5,7 +5,7 @@ dependencies[] = location (>=7.x-3.6)
 dependencies[] = geolocation (>=7.x-1.6)
 package = Views
 core = 7.x
-version = 0.01a
+version = 0.01-alpha
 
 files[] = views_map.module
 files[] = theme/views_map.theme.inc

@@ -1,0 +1,113 @@
+<?php
+/**
+* @file
+* Provides Map Style options for Views
+*/
+
+/**
+* Implement hook_theme().
+*/
+function views_map_theme($existing, $type, $theme, $path){
+
+}
+
+/**
+* Implements hook_views_api().
+*/
+function views_map_views_api(){
+
+}
+
+/**
+* Implements hook_help().
+*/
+function views_map_help($path, $arg){
+
+}
+
+/**
+* Implements hook_library().
+*/
+function views_map_library(){
+
+}
+
+/**
+ * Implementation of hook_views_map_skin_info().
+ */
+function views_map_views_map_skin_info() {
+
+}
+
+/**
+ * Implements hook_views_map_widget_info().
+ */
+function views_map_views_map_widget_info() {
+
+}
+
+/**
+ * Implements [widget]_views_map_widget_form_options().
+ */
+function views_map_pager_views_map_widget_form_options(&$form, &$form_state, &$view, $defaults, $dependency) {
+
+}
+
+
+/**
+ * preg_replace_callback callback().
+ * @see views_map_format_addons_name().
+ */
+function _views_map_get_preg_strtoupper_callback($matches) {
+
+}
+
+
+/**
+ * php5.x preg_replace_callback() method.
+ */
+function views_map_format_addons_name($subject) {
+
+}
+
+/**
+* Implementation of hook_views_map_widget_pager_info
+*/
+function views_map_views_map_widget_pager_info($view) {
+
+}
+
+/**
+ * Implementation [widget-type]_views_map_pager_form_options
+ */
+function views_map_pager_fields_views_map_widget_pager_form_options(&$form, &$form_state, &$view, $defaults, $dependency) {
+
+}
+
+/**
+ * Implements [widget]_views_map_widget_form_options().
+ */
+function views_map_controls_views_map_widget_form_options(&$form, &$form_state, &$view, $defaults, $dependency) {
+
+}
+
+/**
+* Implementation of hook_views_map_controls_info
+*/
+function views_map_views_map_widget_controls_info($view) {
+
+}
+
+
+
+/**
+* Implements hook_views_map_option_definition.
+*/
+function views_map_views_map_option_definition() {
+
+}
+
+
+
+
+
